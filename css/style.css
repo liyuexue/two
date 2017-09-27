@@ -1,0 +1,106 @@
+@import "../css/reset.css";
+body{
+    font-size:.32rem;
+}
+html,body,.container{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.container{
+    display:-webkit-flex;
+    flex-direction:column;
+}
+.header{
+    display:-webkit-flex;
+    height:1.5rem;
+    line-height:1.5rem;
+    background:#393A3F;
+}
+.header a:nth-child(1){
+    -webkit-flex:8;
+    font-size:.4rem;
+    color:#fff;
+}
+.header a:nth-child(1) b{
+    display:inline-block;
+    width:1rem;
+    text-align:center;
+    height:.7rem;
+    line-height:.7rem;
+    border-right:1px solid #000;
+    margin-right:20px;
+}
+.header a:nth-child(2){
+    -webkit-flex:2;
+    margin-right:.5rem;
+    text-align:right;
+    font-size:1rem;
+    margin-top:-.3rem;
+    color:#fff;
+}
+.main{
+    -webkit-flex:1;
+    overflow-y:scroll;
+    background:#818D9B;
+}
+.main .box{
+    width:90%;
+    margin-left:5%;
+    background:#fff;
+    border-radius:7px;
+    align-items:center;
+    padding:1rem 0 1rem 0;
+    text-align:center;
+    margin-top:.5rem;
+}
+.main .box img{
+    width:60%;
+    height:auto;
+}
+.main .box p{
+    font-size:.5rem;
+    margin-top:10px;
+    color:#ccc;
+}
+.main .box ul{
+    width:90%;
+    margin-left:5%;
+    margin-top:1rem;
+}
+.main .box ul li{
+    height:1.2rem;
+    line-height:1.2rem;
+    border-bottom:1px solid #878988;
+    margin-top:.8rem;
+    padding-left:15px;
+    position:relative;
+    padding-bottom:.3rem;
+}
+.main .box ul li img{
+    top:5px;
+    width:10%;
+    height:auto;
+    position:absolute;
+}
+.main .box ul li input{
+    width:80%;
+    border:0;
+    font-size:.35rem;
+    margin-left:.8rem;
+    color:#A4A4A4;
+}
+.main button{
+    display:block;
+    width:90%;
+    margin-left:5%;
+    background:#32B976;
+    text-align:center;
+    height:1.2rem;
+    line-height:1.2rem;
+    color:#fff;
+    font-size:.3rem;
+    margin-top:1.2rem;
+    border:0;
+    border-radius:7px;
+}
